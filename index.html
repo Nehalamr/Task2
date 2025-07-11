@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-  <title>Pizza-on-Demand</title>
-</head>
-<body>
+    <title>Pizza-on-Demand</title>
+ <link rel="stylesheet" href="css/style.css">
+  </head>
+<style>
+  * {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: brown;
+  margin-right: 15px;
+}
+h1 {
+  color: brown;
+}
+#title {
+  color: rgb(52, 145, 216);
+}
+#Number {
+  width: 40px;
+}
+input[type="button"] {
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+input[type="button"]:hover {
+  background-color: black;
+  color: white;
+}
+form label {
+  font-weight: bold;
+  font-style: italic;
+  color: darkslategray;
+}
+.featured {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-left: 4px solid #007BFF;
+}
+a + a {
+  margin-left: 10px;
+}
+</style>
+  <body>
   <a href="#">Main</a>
   <a href="#">Make An Order</a>
   <a href="#">Contact Us</a>
@@ -31,8 +74,7 @@
         <td> <label for="email">Email:</label></td>
        <td><input type="email" name="email" id="email"></td>
         </tr>
-       
-       </form>
+        </form>
      </table>
       Delivery Instruction:<br>
     <textarea rows="4" cols="40" placeholder="No more than 400 character long"></textarea>
